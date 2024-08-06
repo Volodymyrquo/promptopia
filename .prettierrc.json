@@ -1,0 +1,23 @@
+{
+    "semi": true,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 80,
+    "proseWrap": "always",
+    "tabWidth": 4,
+    "eslint.autoFixOnSave": true,
+    "importOrder": [
+        "^react",
+        "<THIRD_PARTY_MODULES>",
+        "^@/lib/(.*)$",
+        "^@/components/(.*)$",
+        "^@/app/(.*)$",
+        "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
+    "plugins": [
+        "@trivago/prettier-plugin-sort-imports",
+        "prettier-plugin-tailwindcss"
+    ]
+}
